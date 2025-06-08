@@ -63,7 +63,11 @@ function BingoBoard() {
         className="flex items-center justify-center h-24 bg-white/20 rounded text-center p-2 text-sm font-medium cursor-pointer transition-colors"
         onClick={e => {
           const el = e.currentTarget;
-          el.style.backgroundColor = 'green';
+          if (el.style.backgroundColor === 'green') {
+        el.style.backgroundColor = '';
+          } else {
+        el.style.backgroundColor = 'green';
+          }
         }}
       >
         {i === 12 ? freeString : str}
