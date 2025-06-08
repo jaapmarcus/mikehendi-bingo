@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-var stringDatabse = [
+const stringDatabase = [
   'Mike starts explaining obscure game mechanics',
   'Mike use piles for something apart from trasporting fluids',
   "Mikes runs into hos own 'pets' worms",
@@ -33,7 +33,8 @@ var stringDatabse = [
   "Stream dies for no reason",
 ]
 
-var freeString = 'Let\'s make a save game';
+const freeString = 'Let\'s make a save game';
+
 function getRandomUniqueStrings(arr: string[], count: number): string[] {
   const used = new Set<number>();
   const result: string[] = [];
@@ -41,13 +42,13 @@ function getRandomUniqueStrings(arr: string[], count: number): string[] {
     const idx = Math.floor(Math.random() * arr.length);
     if (!used.has(idx)) {
       used.add(idx);
-      result.push(arr[idx]);
+      result.push(arr[idx]!);
     }
   }
   return result;
 }
 
-const bingoStrings = getRandomUniqueStrings(stringDatabse, 24);
+const bingoStrings = getRandomUniqueStrings(stringDatabase, 24);
 
 function BingoBoard() {
   const cells = [...bingoStrings.slice(0, 12), freeString, ...bingoStrings.slice(12)];
