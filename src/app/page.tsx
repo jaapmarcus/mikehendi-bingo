@@ -5,7 +5,7 @@ import React from 'react';
 const stringDatabase = [
   'Mike starts explaining obscure game mechanics',
   'Mike use pipes for something apart from trasporting fluids',
-  "Mikes runs into hos own 'pets' worms",
+  "Mikes runs into hos own 'pet' worms",
   'Someone in chat aks "What is he doing?"',
   "Mike gets killed by a bitter",
   'Mike builds two adjacent power poles for "symmetry"',
