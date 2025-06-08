@@ -4,7 +4,7 @@ import React from 'react';
 
 const stringDatabase = [
   'Mike starts explaining obscure game mechanics',
-  'Mike use piles for something apart from trasporting fluids',
+  'Mike use pipes for something apart from trasporting fluids',
   "Mikes runs into hos own 'pets' worms",
   'Someone in chat aks "What is he doing?"',
   "Mike gets killed by a bitter",
@@ -31,6 +31,9 @@ const stringDatabase = [
   "Turns on the wrong debug setting",
   "Mikes predicts what editing Mike thinks",
   "Stream dies for no reason",
+  "Why don't you just use trains?",
+  "Mike gets stuck in the forest",
+
 ]
 
 const freeString = 'Let\'s make a save game';
