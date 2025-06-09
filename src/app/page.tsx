@@ -4,39 +4,45 @@ import React from 'react';
 
 const stringDatabase = [
   'Mike starts explaining obscure game mechanics',
-  'Mike use pipes for something apart from trasporting fluids',
-  "Mikes runs into hos own 'pet' worms",
-  'Someone in chat aks "What is he doing?"',
-  "Mike gets killed by a bitter",
-  'Mike builds two adjacent power poles for "symmetry"',
-  'Mikes get low in his own base',
-  "Mike a(b)uses trash slots for extra inventory space",
-  "Mike forget to unmute himeself",
-  "Mike get stuck in the forest",
-  "Obssings over power pole placement",
-  "A cursed splitter contraption is built",
-  "Stops playing to watch rocket launch(es)",
-  "Mike get sidetracked while being sidetracked",
-  'Like a normal person',
-  "Mike forgets to cancel the blinking when research fishes",
-  "Mike forget to hide repair packs",
-  "Mike forgets to read chat",
-  "Misspell's game save name",
-  "Mike fills a lake with fish",
-  "Mike gets sidetracked",
-  "Mike keep depleted miniers around for sentimental reasons",
-  "Mike makes a comment about taking money out of Jeff Bezos' pocket",
-  "Mike get overconfident",
-  "Dosh Doshington appears in chat / get mentioned by Mike",
-  "Turns on the wrong debug setting",
-  "Mikes predicts what editing Mike thinks",
-  "Stream dies for no reason",
-  "Why don't you just use trains?",
-  "Mike gets stuck in the forest",
+  'Mike use pipes for something else than transporting fluids',
+  'Mike runs into his own "pet worms" (and they cause damage)',
+  'Mike gets killed',
+  'Mike builds two adjacent power poles "for symmetry"',
+  'Mike spends over an hour nonstop in editor mode',
+  'Mike saves a trip by using trash slots for extra inventory space',
+  'Mike forgets to unmute himeself',
+  'Mike gets stuck in the forest/cliffs while reading chat',
+  'Mike obssesses over power pole placement',
+  'Mike stops playing to watch rocket launch',
+  'Mike gets sidetracked while alreadybeing sidetracked',
+  'Mike forgets to cancel the blinking when research finishes',
+  'Mike forgets to hide repair packs (during combat)',
+  'Mike makes a mistake which everyone sees but he doesn\'t read chat',
+  'Mike expands his starter lake fish empire',
+  'Mike keeps additional depleted miners/obsolete infrastructure around',
+  'Mike gets overconfident / overcomplacent',
+  'Mike turns on the wrong debug setting',
+  'Mike predicts what editing Mike will think',
+  'Mike triggers an ingame achievement',
+  'Maik Missspelll\'s savegamename',
+  'Dosh Doshington appears in chat',
+  'Stream dies for no reason',
+  '"A cursed splitter contraption is built"',
+  '"A cursed belt weaving contraption is built"',
+  'Mike: "Like a normal person"',
+  'Mike: "Let\'s make a save"',
+  'Mike: "Thanks for taking money straight outta Jeff Bezos\' pocket"',
+  'Chat: "What is he doing?"',
+  'Chat: "Why don\'t you just use trains?"',
+  'Chat: "Why don\'t you just use bots/logistics system?"',
+  'Chat: "Why don\'t you just use nukes/artillery?"',
+  'Chat: "Why don\'t you just use a tank/spidertron?"',
+  'Chat: "Why don\'t you just use fast/bulk/stack inserters?"',
+  'If at least 3 out of 4 adjacent tiles are lit, THIS tile is lit!',
 
 ]
 
-const freeString = 'Let\'s make a save game';
+const freeString = 'Mike gets sidetracked';
 
 function getRandomUniqueStrings(arr: string[], count: number): string[] {
   const used = new Set<number>();
@@ -56,7 +62,7 @@ const bingoStrings = getRandomUniqueStrings(stringDatabase, 24);
 function BingoBoard() {
   const cells = [...bingoStrings.slice(0, 12), freeString, ...bingoStrings.slice(12)];
   return (
-    <div className="grid grid-cols-5 gap-2 max-w-2xl mx-auto my-8">
+    <div className="grid grid-cols-5 gap-2 max-w-4xl mx-auto my-12">
       {cells.map((str, i) => (
       <div
         key={i}
