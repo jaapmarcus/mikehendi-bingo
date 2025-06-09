@@ -39,7 +39,6 @@ const stringDatabase = [
   'Chat: "Why don\'t you just use a tank/spidertron?"',
   'Chat: "Why don\'t you just use fast/bulk/stack inserters?"',
   'If at least 3 out of 4 adjacent tiles are lit, THIS tile is lit!',
-
 ]
 
 const freeString = 'Mike gets sidetracked';
@@ -62,11 +61,11 @@ const bingoStrings = getRandomUniqueStrings(stringDatabase, 24);
 function BingoBoard() {
   const cells = [...bingoStrings.slice(0, 12), freeString, ...bingoStrings.slice(12)];
   return (
-    <div className="grid grid-cols-5 gap-2 max-w-4xl mx-auto my-12">
+    <div className="grid grid-cols-5 gap-2 max-w-4xl mx-auto my-">
       {cells.map((str, i) => (
       <div
         key={i}
-        className="flex items-center justify-center h-24 bg-white/20 rounded text-center p-2 text-sm font-medium cursor-pointer transition-colors"
+        className="flex items-center justify-center h-36 bg-white/20 rounded text-center p-2 text-sm font-medium cursor-pointer transition-colors"
         onClick={e => {
           const el = e.currentTarget;
           if (el.style.backgroundColor === 'green') {
@@ -91,6 +90,9 @@ export default function HomePage() {
         </h1>
         <BingoBoard />
       </div>
+      <footer className="flex items-center justify-center w-full h-24 border-t border-white/10">
+        <a href="https://discord.com/invite/cV6QEfmXh5">Mike Hendriks Discord</a> / ObsoleteAlien / <a href="https://github.com/jaapmarcus/">Jaap Marcus</a>
+      </footer>
     </main>
   );
 }
