@@ -42,7 +42,7 @@ const stringDatabase = [
   'Mike is on the wrong screen.',
   '"Someone in chat claims resource X is free on plannet Y"',
   'Mike explains why one does not need to make a mall',
-  'Mike ignores Hydrate / Stretch Reward redeems",
+  'Mike ignores Hydrate / Stretch Reward redeems',
 ]
 
 const freeString = 'Mike gets sidetracked';
