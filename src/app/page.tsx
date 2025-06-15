@@ -39,6 +39,7 @@ const stringDatabase = [
   'Chat: "Why don\'t you just use a tank/spidertron?"',
   'Chat: "Why don\'t you just use fast/bulk/stack inserters?"',
   'If at least 3 out of 4 adjacent tiles are lit, THIS tile is lit!',
+  'Mike is on the wrong screen.',
 ]
 
 const freeString = 'Mike gets sidetracked';
