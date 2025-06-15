@@ -40,6 +40,7 @@ const stringDatabase = [
   'Chat: "Why don\'t you just use fast/bulk/stack inserters?"',
   'If at least 3 out of 4 adjacent tiles are lit, THIS tile is lit!',
   'Mike is on the wrong screen.',
+  '"Someone in chat claims resource X is free on plannet Y"',
 ]
 
 const freeString = 'Mike gets sidetracked';
