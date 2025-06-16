@@ -14,7 +14,7 @@ const stringDatabase = [
   'Mike gets stuck in the forest/cliffs while reading chat',
   'Mike obssesses over power pole placement',
   'Mike stops playing to watch rocket launch',
-  'Mike gets sidetracked while alreadybeing sidetracked',
+  'Mike gets sidetracked while already being sidetracked',
   'Mike forgets to cancel the blinking when research finishes',
   'Mike forgets to hide repair packs (during combat)',
   'Mike makes a mistake which everyone sees but he doesn\'t read chat',
