@@ -14,7 +14,7 @@ const stringDatabase = [
   'Mike gets stuck in the forest/cliffs while reading chat',
   'Mike obssesses over power pole placement',
   'Mike stops playing to watch rocket launch',
-  'Mike gets sidetracked while alreadybeing sidetracked',
+  'Mike gets sidetracked while already being sidetracked',
   'Mike forgets to cancel the blinking when research finishes',
   'Mike forgets to hide repair packs (during combat)',
   'Mike makes a mistake which everyone sees but he doesn\'t read chat',
@@ -40,6 +40,9 @@ const stringDatabase = [
   'Chat: "Why don\'t you just use fast/bulk/stack inserters?"',
   'If at least 3 out of 4 adjacent tiles are lit, THIS tile is lit!',
   'Mike is on the wrong screen.',
+  '"Someone in chat claims resource X is free on plannet Y"',
+  'Mike explains why one does not need to make a mall',
+  'Mike ignores Hydrate / Stretch Reward redeems',
 ]
 
 const freeString = 'Mike gets sidetracked';
