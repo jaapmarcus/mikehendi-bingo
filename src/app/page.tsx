@@ -43,6 +43,10 @@ const stringDatabase = [
   '"Someone in chat claims resource X is free on plannet Y"',
   'Mike explains why one does not need to make a mall',
   'Mike ignores Hydrate / Stretch Reward redeems',
+  'Mike hand feeds 1000x of one item',
+  'Mike acts like a legendary logistic bot',
+  'Mike runs back and forth because he forgot things multiple times',
+  
 ]
 
 const freeString = 'Mike gets sidetracked';
