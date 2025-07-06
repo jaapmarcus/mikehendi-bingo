@@ -46,7 +46,8 @@ const stringDatabase = [
   'Mike hand feeds 1000x of one item',
   'Mike acts like a legendary logistic bot',
   'Mike runs back and forth because he forgot things multiple times',
-  
+  'Mike mispronounces "variance"',
+
 ]
 
 const freeString = 'Mike gets sidetracked';
