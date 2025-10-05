@@ -47,6 +47,7 @@ const stringDatabase = [
   'Mike acts like a legendary logistic bot',
   'Mike runs back and forth because he forgot things multiple times',
   'Mike mispronounces "variance"',
+  'Mike forgets to use Foundery or EM plants',
 
 ]
 
