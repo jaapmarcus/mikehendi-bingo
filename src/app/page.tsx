@@ -160,13 +160,23 @@ export default function HomePage() {
           Mike Hendi Bingo board
         </h1>
         <BingoBoard />
+        <button
+          className="mt-4 rounded bg-purple-600 px-4 py-2 font-bold text-white hover:bg-red-700"
+          onClick={() => {
+            localStorage.clear();
+            window.location.reload();
+          }}
+        >
+          Reset Board
+        </button>
       </div>
       <footer className="flex h-24 w-full items-center justify-center border-t border-white/10">
         <a href="https://discord.com/invite/cV6QEfmXh5">
           Mike Hendriks Discord
         </a>{" "}
         / ObsoleteAlien /{" "}
-        <a href="https://github.com/jaapmarcus/">Jaap Marcus</a>
+        <a href="https://github.com/jaapmarcus/">Jaap Marcus</a>{" "}
+        /{" "} <a href="https://github.com/jaapmarcus/mikehendi-bingo/blob/main/README.md"> Read ME</a>
       </footer>
     </main>
   );
