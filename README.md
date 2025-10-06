@@ -10,5 +10,5 @@ Discord: https://discord.com/invite/cV6QEfmXh5
 Changelog:
 2025-10-06:
 
-- Make bingo board presistend / reload save @Baze-cmd #5
+- Save bingo board in Localstorage and allow users to close the window / screen @Baze-cmd #5
 - Add reset button
