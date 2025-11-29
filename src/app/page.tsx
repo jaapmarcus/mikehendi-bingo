@@ -177,7 +177,8 @@ export default function HomePage() {
         </a>{" "}
         / ObsoleteAlien /{" "}
         <a href="https://github.com/jaapmarcus/">Jaap Marcus</a>{" "}
-        /{" "} <a href="https://github.com/jaapmarcus/mikehendi-bingo/blob/main/README.md"> Read ME</a>
+        /{" "} <a href="https://github.com/jaapmarcus/mikehendi-bingo/blob/main/README.md"> Read ME</a> /{" "}
+        <a href="https://github.com/jaapmarcus/mikehendi-bingo">Suggest changes to bingo square</a>
       </footer>
     </main>
   );
