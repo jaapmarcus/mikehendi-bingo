@@ -49,6 +49,7 @@ const stringDatabase: string[] = [
   "Mike runs back and forth because he forgot things multiple times",
   'Mike mispronounces "variance"',
   "Mike forgets to use Foundery or EM plants",
+  "People discussing usefulness Fast inserters",
 ];
 
 const freeString = "Mike gets sidetracked";
@@ -176,7 +177,8 @@ export default function HomePage() {
         </a>{" "}
         / ObsoleteAlien /{" "}
         <a href="https://github.com/jaapmarcus/">Jaap Marcus</a>{" "}
-        /{" "} <a href="https://github.com/jaapmarcus/mikehendi-bingo/blob/main/README.md"> Read ME</a>
+        /{" "} <a href="https://github.com/jaapmarcus/mikehendi-bingo/blob/main/README.md"> Read ME</a>{" "} / {" "} 
+        <a href="https://github.com/jaapmarcus/mikehendi-bingo">Suggest changes to bingo square</a>
       </footer>
     </main>
   );
